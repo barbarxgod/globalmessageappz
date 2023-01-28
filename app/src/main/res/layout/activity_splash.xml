@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="15sp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250sp"
+        android:layout_height="250sp"
+        app:srcCompat="@drawable/applogo"
+        android:gravity="center"
+        android:layout_marginBottom="50sp"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_marginTop="50sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GİRİŞ YAP"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:gravity="center"
+        android:text="KAYIT OL"/>
+
+    <TextView
+        android:id="@+id/editTextAdNumara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="40sp"
+        android:inputType="textPersonName"
+        android:text="MUSTAFA KORAY MEMIS 201713709035"/>
+</LinearLayout>
